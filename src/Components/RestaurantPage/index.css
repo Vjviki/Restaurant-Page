@@ -1,0 +1,175 @@
+.restaurant-page-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.responsive-restaurant-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.restaurant-item {
+  width: 100%;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.restaurant-list-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #d1c7c5;
+  gap: 15;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-description-container {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.veg-and-nonveg-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .veg-and-nonveg-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.dis-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dis-description-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 6px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .dis-description-name {
+    font-size: 22px;
+  }
+}
+
+.dis-description-price {
+  font-size: 18px;
+  margin: 0 0 6px 0;
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .dis-description-price {
+    font-size: 22px;
+  }
+}
+
+.dis-description {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 5px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .dis-description {
+    font-size: 18px;
+  }
+}
+
+.dis-item-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #148219;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .dis-item-add {
+    width: 120px;
+  }
+}
+
+.inc-des-button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .inc-des-button {
+    font-size: 22px;
+  }
+}
+
+.not-available-item {
+  font-size: 15px;
+  color: #f52a37;
+}
+
+.customizations-text {
+  font-size: 15px;
+  color: #045f94;
+  font-weight: 600;
+}
+
+.calories-text {
+  color: #f9a825;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 15px;
+  margin-left: 15px;
+  align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .calories-text {
+    font-size: 20px;
+  }
+}
+
+.add-item-count {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .add-item-count {
+    font-size: 20px;
+  }
+}
+
+.food-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .food-img {
+    width: 140px;
+    height: 140px;
+  }
+}

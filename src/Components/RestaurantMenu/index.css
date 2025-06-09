@@ -1,0 +1,46 @@
+.restaurant-menu-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.restaurant-menu-responsive-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.restaurant-menu-item {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-menu-item {
+    overflow-x: auto;
+  }
+}
+
+.restaurant-menu-list {
+  list-style: none;
+  flex-shrink: 0;
+}
+
+.menu-button {
+  font-family: Roboto;
+  background-color: transparent;
+  border: 4px solid #ede8e6;
+  border-left: #ffffff;
+  border-right: #ffffff;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.active-menu {
+  color: #f5402c;
+  border-bottom-color: #f5402c;
+}
