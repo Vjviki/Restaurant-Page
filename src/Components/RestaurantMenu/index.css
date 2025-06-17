@@ -1,6 +1,7 @@
 .restaurant-menu-container {
   display: flex;
   justify-content: center;
+  background-color: #f2f6f7;
   width: 100%;
 }
 

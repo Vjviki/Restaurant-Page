@@ -1,6 +1,7 @@
 .header-container {
   display: flex;
   justify-content: center;
+  background-color: #ffffff;
   width: 100%;
 }
 
@@ -13,7 +14,19 @@
 
 .header-title {
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .header-title {
+    font-size: 20px;
+  }
+}
+
+.restaurant-nav-list-item {
+  display: flex;
+  align-items: center;
 }
 
 .nav-link {
@@ -31,6 +44,31 @@
   }
 }
 
+.menu-list {
+  list-style: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-list {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.nav-text {
+  font-family: Roboto;
+  color: #000000;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-text {
+    font-size: 20px;
+  }
+}
+
 .nav-my-order-text {
   display: none;
   font-family: Roboto;
@@ -43,19 +81,29 @@
   }
 }
 
-.cart-icon-container {
+.cart-icon-button {
   position: relative;
   display: inline-block;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .cart-icon {
-  font-size: 40px;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-icon {
+    font-size: 40px;
+  }
 }
 
 .cart-count-badge {
   position: absolute;
   top: -5px;
-  right: -8px;
+  right: -2px;
   background-color: #f05429;
   font-size: 14px;
   color: #ffffff;
@@ -63,4 +111,25 @@
   font-weight: 500;
   border-radius: 50%;
   padding: 2px 6px;
+}
+
+.logout-button {
+  width: 70px;
+  height: 30px;
+  background-color: #121210;
+  font-family: Roboto;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-button {
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+  }
 }

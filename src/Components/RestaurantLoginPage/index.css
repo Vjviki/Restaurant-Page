@@ -1,0 +1,101 @@
+.restaurant-loginpage-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('https://res.cloudinary.com/df73pocxs/image/upload/v1749740261/vintage-old-rustic-cutlery-dark-min_yvql8e.jpg');
+  background-size: cover;
+}
+
+.restaurant-loginpage-responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+}
+
+.form-container {
+  align-self: flex-end;
+  background-color: #b7b8b2;
+  height: 400px;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.restaurant-Title {
+  font-family: Roboto;
+  color: #121210;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.username-password-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+
+.input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 8px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.show-password-container {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.check-box-field {
+  font-family: Roboto;
+  color: #475569;
+}
+
+.show-password-label {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.login-button {
+  width: 120px;
+  height: 45px;
+  background-color: #121210;
+  font-family: Roboto;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.error_msg {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #eb0c1e;
+}
